@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_weight="30"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/Amarillo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/mari"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="267dp"
+        android:layout_height="125dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_gravity="right|center_vertical">
+
+        <TextView
+            android:id="@+id/Nombre"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre: Maria Auxiliadora" />
+
+        <TextView
+            android:id="@+id/apellido"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:text="Apellido: Morales Vega" />
+
+        <TextView
+            android:id="@+id/edad"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="edad:18" />
+
+        <TextView
+            android:id="@+id/sexo"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="sexo: Femenino" />
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="direccion: frente a la cancha de memorial sandino" />
+
+        <TextView
+            android:id="@+id/carrera"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:text="carrera: Ing. en sistemas" />
+
+        <View
+            android:id="@+id/View"
+            android:layout_width="246dp"
+            android:layout_height="1dp">
+
+        </View>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
